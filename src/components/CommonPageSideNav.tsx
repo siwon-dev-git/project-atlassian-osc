@@ -74,7 +74,6 @@ const CommonPageSideNav = () => {
           </NestingItem>
         </Section>
       </NestableNavigationContent>
-
       <NavigationFooter>
         <Footer
           description={

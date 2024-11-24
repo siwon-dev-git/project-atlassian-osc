@@ -38,9 +38,9 @@ const TodoList = () => {
           content: (
             <Fragment>
               {d.completed ? (
-                <Lozenge appearance="success">Todo</Lozenge>
+                <Lozenge appearance="success">Done</Lozenge>
               ) : (
-                <Lozenge appearance="new">Done</Lozenge>
+                <Lozenge appearance="new">Todo</Lozenge>
               )}
             </Fragment>
           ),
